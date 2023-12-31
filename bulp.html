@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulp Project</title>
+    <style>
+        .con{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #btn_1{
+            background-color: green;
+            color: #fff;
+            border: none;
+        }
+        #btn_2{
+            background-color: red;
+            color: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="img">
+            <img src="./off.png" alt="">
+        </div>
+        <h3 id="bulp">Bulp is Off</h3>
+        <div class="btn">
+            <button id="btn_1" onclick="on()">On</button>
+            <button id="btn_2" onclick="off()">Off</button>
+        </div>
+    </div>
+
+    <script>
+        // function on(){
+            //     document.querySelector('img').src = "on.png";
+            //     document.getElementById('bulp').innerHTML = "Bulp in now On";
+            // }
+        // function off(){
+        //     document.querySelector('img').src = "off.png";
+        //     document.getElementById('bulp').innerHTML = "Bulp in now Off";
+        // }
+        </script>
+<script src="./func.js"></script>
+</body>
+</html>

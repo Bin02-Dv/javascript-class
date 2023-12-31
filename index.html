@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    
+    <!-- <h2 id="heading" onmouseover="document.getElementById('heading').innerHTML = 'Hello JavaScript!';">Hello world</h2> -->
+
+    <h3 id="h3_1">Solve</h3>
+    <h3 id="h3_2">Problems</h3>
+
+    <button onclick="change()">Change</button>
+
+
+    <script>
+        function change(){
+            document.querySelector("#h3_1").innerHTML = "Problems!";
+            document.querySelector("#h3_1").style = "color: red;";
+
+            document.querySelector("#h3_2").innerHTML = "Solved!";
+            document.querySelector("#h3_2").style = "color: green;";
+        }
+
+    </script>
+</body>
+</html>
